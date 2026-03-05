@@ -8,30 +8,6 @@
 
 int main()
 {
-    /*
-    double re, im;
-    std::cout << "enter real and imaginary part : " << std::endl;
-    std::cin >> re >> im;
-    Complexe z(re, im);
-    std::function<Complexe(Complexe)> f = [] (Complexe z) { return z - 1.0; };
-    // type                        fonction     argument     corps de la foction
-
-    std::tuple<Complexe, int> res = methode_newton(100, z, f);
-    std::cout << "for the fonction f(z) = z-1 the root is : " << std::get<0>(res) << " for : " << std::endl;
-    std::cout << "for " << std::get<1>(res) << " iteration" << std::endl;
-    */
-
-    /*
-    std::function<Complexe(Complexe)> fz = [] (Complexe z) { return z * z * z - 1.0; };
-    grillez3(fz, 2, 1000);
-
-    std::function<Complexe(Complexe)> fz1 = [] (Complexe z) {
-        Complexe z2 = z * z;
-        Complexe z4 = z2 * z2;
-        return z4 - z2 * 2.0 - 1.0;
-    };
-    grillez4(fz1, 2, 1000);
-    */
 
     double a = 2.0;  // domaine [-a,a]×[-a,a]
     int N = 800;     // grille N×N
